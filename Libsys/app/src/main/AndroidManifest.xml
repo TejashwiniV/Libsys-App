@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libsys">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_final_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_final"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewBorrowed" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".ViewIssued" />
+        <activity android:name=".ViewStudent" />
+        <activity android:name=".ViewBook" />
+        <activity android:name=".IssueBook" />
+        <activity android:name=".AddBook" />
+        <activity android:name=".ReturnBook" />
+        <activity android:name=".RenewBook" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="1"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textColor="#9400d3"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Email Id"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:text="SIGN UP"
+        android:background="#9400d3"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Already registered!"
+        android:textSize="15sp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_marginTop="15dp"
+        android:background="#9400d3"
+        android:text="LOG IN"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+</GridLayout>

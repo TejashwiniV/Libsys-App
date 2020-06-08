@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/addbk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ISSUE BOOK"
+        android:textAlignment="center"
+        android:layout_below="@+id/actionBAR99"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#9400d3" />
+    <TextView
+        android:id="@+id/issbookID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOK ID  "
+        android:textSize="20dp"
+        android:layout_below="@+id/actionBAR99"
+        android:layout_marginTop="50dp"
+        android:textColor="#9400d3"/>
+    <EditText
+        android:id="@+id/issbkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionBAR99"
+        android:layout_toRightOf="@+id/issbookID"
+        android:hint="Book ID"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:ems="7"/>
+    <TextView
+        android:id="@+id/issSTDID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT ID"
+        android:textSize="20dp"
+        android:layout_below="@+id/issbookID"
+        android:layout_marginTop="40dp"
+        android:textColor="#9400d3"/>
+    <EditText
+        android:id="@+id/issSTD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/issbkID"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/issSTDID"
+        android:layout_marginLeft="15dp"
+        android:hint="Student ID"
+        android:ems="7"/>
+    <Button
+        android:id="@+id/issbookSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/issSTD"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="35dp"
+        android:text="ISSUE"
+        android:background="#9400d3"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

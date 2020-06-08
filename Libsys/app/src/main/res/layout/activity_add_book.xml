@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/addbk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD BOOK"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#9400d3" />
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOK NAME"
+        android:textSize="18dp"
+        android:layout_below="@+id/addbk"
+        android:layout_marginTop="14dp"
+        android:textColor="#9400d3"/>
+    <EditText
+        android:id="@+id/bkname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addbk"
+        android:layout_toRightOf="@+id/bookName"
+        android:hint="Book Name"
+        android:layout_marginLeft="40dp"
+        android:ems="7"/>
+    <TextView
+        android:id="@+id/bookAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOK AUTHOR"
+        android:textSize="18dp"
+        android:layout_below="@+id/bookName"
+        android:layout_marginTop="40dp"
+        android:textColor="#9400d3"/>
+    <EditText
+        android:id="@+id/bkauth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkname"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/bookAuthor"
+        android:layout_marginLeft="20dp"
+        android:hint="Book Author"
+        android:ems="7"/>
+    <TextView
+        android:id="@+id/bookCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO. OF BOOKS"
+        android:textSize="18dp"
+        android:layout_below="@+id/bookAuthor"
+        android:layout_marginTop="40dp"
+        android:textColor="#9400d3"/>
+    <EditText
+        android:id="@+id/bkcnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkauth"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/bookCount"
+        android:layout_marginLeft="22dp"
+        android:hint="No.of Books"
+        android:ems="7"/>
+    <Button
+        android:id="@+id/bookSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bkcnt"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="35dp"
+        android:text="SUBMIT"
+        android:background="#9400d3"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

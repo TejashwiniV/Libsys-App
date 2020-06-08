@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Main Menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_black_24dp">
+        <menu>
+            <item
+                android:title="View Books"
+                android:id="@+id/view_books"
+                app:showAsAction="never"/>
+            <item
+                android:title="View Students"
+                android:id="@+id/view_students"
+                app:showAsAction="never"/>
+            <item
+                android:title="Add Books"
+                android:id="@+id/add_books"
+                app:showAsAction="never"/>
+            <item
+                android:title="Issue Book"
+                android:id="@+id/issue_book"
+                app:showAsAction="never"/>
+            <item
+                android:title="View Issue"
+                android:id="@+id/view_issue"
+                app:showAsAction="never"/>
+            <item
+                android:title="Return Book"
+                android:id="@+id/return_book"
+                app:showAsAction="never"/>
+            <item
+                android:title="Logout"
+                android:id="@+id/logout1"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
